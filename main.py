@@ -6,7 +6,7 @@ pygame.font.init()
 
 WIDTH, HEIGHT = 800, 800
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Space Invader")
+pygame.display.set_caption("Patryk Lesiak Final Project")
 
 RED_SHIP = pygame.image.load(os.path.join("assets", "pixel_ship_red_small.png"))
 GREEN_SHIP = pygame.image.load(os.path.join("assets", "pixel_ship_green_small.png"))
@@ -162,8 +162,8 @@ def main():
 
     def redraw_window():
         WIN.blit(BG, (0, 0))
-        lives_text = main_font.render(f"Lives: {lives}", True, (255, 255, 0))
-        level_text = main_font.render(f"Level: {level}", True, (255, 0, 255))
+        lives_text = main_font.render(f"Lives: {lives}", True, (255, 255, 255))
+        level_text = main_font.render(f"Level: {level}", True, (255, 255, 255))
 
         WIN.blit(lives_text, (10, 10))
         WIN.blit(level_text, (WIDTH - level_text.get_width() - 10, 10))
