@@ -1,7 +1,7 @@
 # Final-Project-Game
 
 I have decided to take a shot on developing my first game using pygame module.
-Games are something which sometimes help me relax after stressfull live matters.
+Games are something which sometimes help me relax after stressful live matters.
 
 Pygame tutorial i have found helped me understand python basics and more advanced functions while having a great time.
 
