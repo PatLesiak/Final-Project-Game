@@ -12,3 +12,5 @@ Game is really simple and very easy to make changes to 'balance' it to maximize 
 Game development is quite fun and interactive way to learn programming language.
 
 My project required pygame module to run properly.
+
+To test game just run main.py code and using "A" and "D" keys steer spaceship and shoot enemies using "SPACE" key. Game ends after loosing all lives and goes infinite.
